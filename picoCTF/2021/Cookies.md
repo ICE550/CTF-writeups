@@ -33,7 +33,7 @@ def modify_cookie_and_get_response(url, cookie_name, cookie_value):
 
 if __name__ == "__main__":
     # Example usage
-    url = "http://mercury.picoctf.net:17781/check" #Change this
+    url = "http://mercury.picoctf.net:17781/check"
     cookie_name = "name"
     
     for i in range(30):
